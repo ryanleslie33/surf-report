@@ -7,11 +7,12 @@
   <body>
     <div class="input">
       <h2>Surf report</h2>
-      <form id="form" action="submit" method="post">
+      <form id="form" action="index.html" >
+        <p>waveSize</p>
         <input id="waveSize" type="text" name="waveSize" value="">
         <br/>
         <br/>
-        <select  class="form-control" id="windDirection">
+        <select   id="windDirection">
        <option value=5> East Wind</option>
        <option value=4>NorthEast Wind</option>
        <option value=4>SouthEast Wind</option>
@@ -20,11 +21,17 @@
      </select>
         <br/>
         <br/>
+        <p>swell</p>
         <input id="swellPeriod" type="text" name="swellPeriod" value="">
         <br/>
         <br/>
+        <p>swellHeight</p>
         <input id="swellHeight" type="text" name="swellHeight" value="">
+        <button type="submit" >Submit</button>
       </form>
+      <div id="output">
+        
+      </div>
     </div>
   </body>
 </html>
