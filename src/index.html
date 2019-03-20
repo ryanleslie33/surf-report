@@ -5,8 +5,26 @@
     <title>surf-repory</title>
   </head>
   <body>
-    <div class="">
-      
+    <div class="input">
+      <h2>Surf report</h2>
+      <form id="form" action="submit" method="post">
+        <input id="waveSize" type="text" name="waveSize" value="">
+        <br/>
+        <br/>
+        <select  class="form-control" id="windDirection">
+       <option value=5> East Wind</option>
+       <option value=4>NorthEast Wind</option>
+       <option value=4>SouthEast Wind</option>
+       <option value=3>South</option>
+       <option value=1>Other</option>
+     </select>
+        <br/>
+        <br/>
+        <input id="swellPeriod" type="text" name="swellPeriod" value="">
+        <br/>
+        <br/>
+        <input id="swellHeight" type="text" name="swellHeight" value="">
+      </form>
     </div>
   </body>
 </html>
