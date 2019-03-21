@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="css/styles.css">
     <meta charset="utf-8">
     <title>surf-repory</title>
   </head>
@@ -8,10 +10,7 @@
     <div class="input">
       <h2>Surf report</h2>
       <form id="form" action="index.html" >
-        <p>waveSize</p>
-        <input id="waveSize" type="text" name="waveSize" value="">
-        <br/>
-        <br/>
+        <p>wind direction</p>
         <select   id="windDirection">
        <option value=5> East Wind</option>
        <option value=4>NorthEast Wind</option>
@@ -21,7 +20,11 @@
      </select>
         <br/>
         <br/>
-        <p>swell</p>
+        <p>waveHieght</p>
+        <input id="waveSize" type="text" name="waveSize" value="">
+        <br/>
+        <br/>
+        <p>Swell Period</p>
         <input id="swellPeriod" type="text" name="swellPeriod" value="">
         <br/>
         <br/>
@@ -29,9 +32,18 @@
         <input id="swellHeight" type="text" name="swellHeight" value="">
         <button type="submit" >Submit</button>
       </form>
-      <div id="output">
-        
-      </div>
+      
+      <div class = "jumbotron" id="output">
+        </div>
+        <p>Todays current day conditions and overall surf score </p>
+        <ul>
+          <li>Wind Direction: SSW</li>
+          <li>Swell period: 13.8 seconds</li>
+          <li>Wave hieght: 0.3 </li>
+          <li>Wave size: 4.14</li>
+          <li>overall score: 3.33</li>
+        </ul>
+      
     </div>
   </body>
 </html>
