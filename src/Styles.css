@@ -1,4 +1,11 @@
 .jumbotron{
   border:solid 3px black;
   font-size: 40px;
+  background-image: url(https://wallpapercave.com/wp/E8h65QW.jpg);
+}
+.input{
+  background-image: url(https://wallpapercave.com/wp/E8h65QW.jpg);
+}
+#form{
+  font-size: 20px
 }

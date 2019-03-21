@@ -1,5 +1,6 @@
 import $ from 'jquery';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import css from './Styles.css';
 import  { Surf } from 'C:/Users/ryan leslie/Desktop/Surf-Report/src/Surf.js'
 
 
