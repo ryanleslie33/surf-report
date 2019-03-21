@@ -1,6 +1,6 @@
 .jumbotron{
   border:solid 3px black;
-  font-size: 40px;
+  font-size: 30px;
   background-image: url(https://wallpapercave.com/wp/E8h65QW.jpg);
 }
 .input{
@@ -8,4 +8,14 @@
 }
 #form{
   font-size: 20px
+}
+ul{
+  font-weight: bold;
+}
+h2{
+  border:solid 3px black;
+  font-size: 30px;
+  background-color: white;
+  position:relative;
+  left:280px
 }

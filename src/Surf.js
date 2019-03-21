@@ -1,8 +1,7 @@
 export class Surf {
   
-  constructor(windDirection,swellPeriod,waveSize,swellHeight){
+  constructor(windDirection,swellPeriod,swellHeight){
     this.wind = windDirection;
-    this.size = waveSize;
     this.swell = swellPeriod;
     this.swellHeight = swellHeight;
     this.windScore = 0;

@@ -4,7 +4,7 @@ describe("Surf", function() {
   let newSurf;
   
   beforeEach(function() {
-    newSurf = new Surf(3,3,3,3);
+    newSurf = new Surf(3,3,3);
     newSurf.sizeChecker()
     newSurf.swellChecker()
   });
